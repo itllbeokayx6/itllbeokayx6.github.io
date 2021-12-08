@@ -1,0 +1,29 @@
+#middleScreen {
+  position: fixed;
+  top: 30%;
+}
+
+body {
+  background-image: url("./assets/bg.png");
+}
+
+#header {
+  position: fixed;
+  width: 3em;
+  height: 3em;
+  left: 30px;
+}
+
+img #song {
+  width: 60%;
+  height: 60%;
+}
+
+#songlist {
+  margin-top: 70px;
+  margin-left: 75px;
+}
+
+#song {
+  margin-bottom: 17px;
+}
