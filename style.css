@@ -55,6 +55,17 @@ img #song {
   box-shadow: 0 0 10px #ffffff;
 }
 
-p {
-  color: white;
+.bottomRightButtons img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 5px;
+  right: 5px;
+}
+
+.bottomRightButtons img:hover {
+  width: 75px;
+  height: 75px;
+  transition-duration: 95ms;
+  transition-property: width, height;
 }
