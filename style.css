@@ -28,3 +28,33 @@ img #song {
 #song {
   margin-bottom: 17px;
 }
+
+#bottomMiddleButtons {
+  position: fixed;
+  bottom: 5px;
+  left:50%;
+}
+
+.buttons {
+  margin-left: -25px;
+}
+
+.buttons a {
+  display: flex;
+  float: left;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin-right: 10px;
+  width: 3em;
+  height: 3em;
+}
+
+.buttons a:hover {
+  transition-duration: 95ms;
+  box-shadow: 0 0 10px #ffffff;
+}
+
+p {
+  color: white;
+}
