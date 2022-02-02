@@ -1,0 +1,10 @@
+body {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+img {
+    position: relative;
+    padding-left: 35vw;
+}
